@@ -1,3 +1,41 @@
+body{
+    margin-top: 100px;
+}
+ul li{
+    list-style: none;
+}
+h1{
+    text-align: center;
+}
+#boton {
+    background-color: lightgray;
+    color: black;
+    border-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    }
+
+#lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+.list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+.list-item-content {
+    flex: 1;
+  }
+  
+.list-item-button {
+    margin-left: 10px;
+  }
+
 
 /* 
 
